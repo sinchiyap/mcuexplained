@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     $("#show1").click(function() {
         $("#ironman").toggle('show');
