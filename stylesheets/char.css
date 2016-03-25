@@ -1,0 +1,75 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 80%;
+    overflow-x: scroll;
+    margin: auto;
+}
+ul {
+    width: 825px;
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0;
+    border: 0;
+    border-color: red;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    border-top: 5px solid brown;
+    float: left;
+    margin: 0.3%;
+    font-family: Marvel;
+    font-size: 20px;
+    opacity: 0.4;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+}
+li a {
+    align-self: stretch;
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+li:hover {
+    opacity: 1.0;
+    font-weight: bold;
+    border-top: 10px double brown;
+}
+li.a {list-style-image: url('../images/gem01.jpg');}
+li.b {list-style-image: url('../images/gem02.jpg');}
+li.c {list-style-image: url('../images/gem03.jpg');}
+li.d {list-style-image: url('../images/gem04.jpg');}
+li.e {list-style-image: url('../images/gem05.jpg');}
+li.f {list-style-image: url('../images/gem06.jpg');}
+a.back-to-top {
+    font-family: Marvel;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0.2;
+	display: block;
+    color: beige;
+	width: 45px;
+	height: 25px;
+	text-indent: 10px;
+	position: fixed;
+	z-index: 10;
+	left: 70px;
+	bottom: 30px;
+	background: #333 no-repeat center 43%;
+}
+a.back-to-top:hover {
+    background-color: brown;
+    opacity: 1.0;
+}
+p { 
+    background-color: #333;
+    color: #00FF00; 
+}
