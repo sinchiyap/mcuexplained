@@ -70,12 +70,27 @@ a.back-to-top:hover {
     opacity: 1.0;
 }
 p { 
-    float:left;
-    width: fit-content;
+    width: 850px;
     overflow: hidden;
     font-size: 22px;;
     font-family: 'Slabo 27px', serif;
     color: #95B9C7;
+}
+h1 {
+    color: #95B9C7;
+	font-family: Marvel;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h2 { 
+    float: right;
+    width: fit-content;
+    font-size: 22px;
+    font-family: 'Slabo 27px', serif;
+    color: #ffffc2;
 }
 aside {
     float: right;

@@ -69,7 +69,44 @@ a.back-to-top:hover {
     background-color: brown;
     opacity: 1.0;
 }
-p { 
+h2 { 
+    width: fit-content;
+    font-size: 22px;
+    font-family: 'Slabo 27px', serif;
+    color: #95B9C7;
+}
+.charname {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffc2;
+}
+h1 {
+    color: #95B9C7;
+	font-family: Marvel;
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+strong { 
+    color: #95B9C7;
+    font-family: 'Slabo 27px', serif;
+    font-size:30px;
+}
+fl {
+    font-size:50px;
+}
+.button {
     background-color: #333;
-    color: #00FF00; 
+    border: none;
+    color: #95B9C7;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Marvel;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: crosshair;
 }
